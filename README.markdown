@@ -38,31 +38,26 @@ This project is a responsive portfolio website for John Watson, a web designer a
    - No additional installations required; all dependencies (Bootstrap, Font Awesome) are loaded via CDN.
 
 ## Team Members & Contributions
-## Victoria Anazodo (ifunanyavictoria16@gmail.com):
-Designed the UI/UX for the hero and biography sections, ensuring a visually appealing layout.
-Added the parallax effect to the hero section for enhanced user experience.
+
 ## Sarah Wambui (wambuimchegez@gmail.com):
 Developed the CSS for the services and skills sections, focusing on responsive grid layouts.
 Implemented the scroll progress indicator for creative navigation feedback.
+Designed the UI/UX for the hero and biography sections, ensuring a visually appealing layout.
+Added the parallax effect to the hero section for enhanced user experience.
 ## Mutiat Bamidele (bintbamidele@gmail.com):
 Wrote JavaScript for the dark mode toggle and search modal functionality.
 Ensured accessibility with ARIA labels and keyboard navigation.
-## Richelle Asmah (asmahrichelle9@gmail.com):
 Structured the HTML for the portfolio and stats sections, integrating Bootstrap components.
 Tested responsiveness across multiple devices and browsers.
 ## Dancun Odhiambo (odhiambodancun144@gmail.com):
 Implemented the contact form with client-side validation using JavaScript.
 Added smooth scrolling and active navigation link highlighting.
-## Linah Ntinyari (linahntinyari9@gmail.com):
-Designed and compiled the CV PDF using LaTeX, ensuring consistency with the portfolio's branding.
 Managed the assets folder, including placeholder images and CV integration.
 ## David Waihenya (davidwaihenya254@gmail.com):
 Styled the footer and brands sections, incorporating hover effects and animations.
 Wrote the initial draft of the README and documented setup instructions.
-## Grace Akinyi (graceakinyi0074@gmail.com):
 Developed JavaScript for skill bar animations and stats counter, enhancing interactivity.
 Conducted cross-browser compatibility testing (Chrome, Firefox, Safari)
-## Felix Oluoch (oroches254@gmail.com):
 Integrated external libraries (Bootstrap, Font Awesome, Google Fonts) into the project.
 Optimized image assets for faster loading and offline compatibility.
 ## Rashid Kisitu (kisiturashid01@gmail.com):
