@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Watson - Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" aria-label="Main navigation">
+        <div class="container">
+            <a class="navbar-brand" href="#">JW</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav-icons">
+                    <a href="#" id="search-toggle" aria-label="Open search"><i class="fas fa-search"></i></a>
+                    <div class="dark-mode-toggle" id="dark-mode-toggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Search Modal -->
+    <div class="search-modal" id="search-modal">
+        <div class="search-modal-content">
+            <input type="text" placeholder="Search..." aria-label="Search input">
+        </div>
+        <span class="close-search" id="close-search" aria-label="Close search">×</span>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="container">
+            <h1 class="hero-title">Hi, I'm John Watson</h1>
+            <h2 class="hero-subtitle">Web Designer</h2>
+            <p class="hero-description">
+                I love Graphic design and Photography and have been working on my portfolio since 2016. 
+                I can give your business a new Creative start right away!
+            </p>
+            <div class="divider"></div>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Hire Me</a>
+                <a href="#portfolio" class="btn btn-outline-primary">My Portfolio</a>
+                <a href="cv.pdf" class="btn btn-outline-primary" download>Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Biography Section -->
+    <section class="bio-section" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="bio-title">My Biography</h3>
+                    <h4 class="bio-subtitle">A Lead UI Designer & Web Developer</h4>
+                    <p class="bio-location">Based In UK</p>
+                    <p class="bio-description">
+                        I love Graphic design and Photography and have been working on my
+                        portfolio since 2016. I Can give your business a new Creative start right
+                        away! Contact me and we will discuss your project!
+                    </p>
+                    <div class="bio-info">
+                        <div class="bio-info-item">
+                            <span class="bio-info-label">Name:</span> John Watson
+                        </div>
+                        <div class="bio-info-item">
+                            <span class="bio-info-label">Email:</span> example@mail.com
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://via.placeholder.com/600x700" alt="John Watson" class="bio-image mt-5 mt-lg-0">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <h2 class="section-heading">What I Do For You</h2>
+            <div class="services-container">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="service-title">Web Development</h3>
+                    <p class="service-description">
+                        Professional website development using modern frameworks and technologies to create responsive, user-friendly experiences.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="service-title">App Development</h3>
+                    <p class="service-description">
+                        Custom mobile application development for iOS and Android platforms with focus on performance and intuitive design.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3 class="service-title">Photography</h3>
+                    <p class="service-description">
+                        High-quality professional photography services for brands, products, and events with expert editing and post-processing.
+                    </p>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="more-services">
+                <a href="#" class="more-services-link">
+                    More Services <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section">
+        <div class="container">
+            <h3 class="section-heading">My Skills</h3>
+            <h4 class="bio-subtitle">My Featured Skills</h4>
+            <p class="bio-description">
+                I Specialize in Branding and Strategy, and am passionate about creating Awesome Portfolio work. 
+                And I always ready to impress the audience with my Creativity.
+            </p>
+            <div class="skills-container">
+                <div class="skills-image">
+                    <img src="https://images.unsplash.com/photo-1579389083078-4e7018379f7e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="John Watson working">
+                </div>
+                <div class="skills-content">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">UI/UX Design</span>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Ideas & Technology</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Branding Design</span>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Responsive Web Design</span>
+                            <span class="skill-percent">88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 88%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-container">
+                <div class="stat-item">
+                    <div class="stat-number">135</div>
+                    <div class="stat-label">Finished Projects</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">225</div>
+                    <div class="stat-label">Working Hours</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">115</div>
+                    <div class="stat-label">Online Support</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">272</div>
+                    <div class="stat-label">Happy Customers</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-section" id="portfolio">
+        <div class="container">
+            <h3 class="portfolio-title">My Success Work</h3>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Massage & Spa" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Wellness</span>
+                        <h4 class="portfolio-project-name">MASSAGE & SPA</h4>
+                        <span class="portfolio-tag">Relaxation Design</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="ButGreat" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Fitness</span>
+                        <h4 class="portfolio-project-name">BUTGREAT</h4>
+                        <span class="portfolio-tag">Fitness Branding</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Natural" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Lifestyle</span>
+                        <h4 class="portfolio-project-name">NATURAL</h4>
+                        <span class="portfolio-tag">Organic Products</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands Section -->
+    <section class="brands-section">
+        <div class="container">
+            <h5 class="brands-title">Trusted By These Companies</h5>
+            <div class="brands-container">
+                <img src="https://via.placeholder.com/150x60?text=Brand+1" alt="Brand 1" class="brand-logo">
+                <img src="https://via.placeholder.com/150x60?text=Brand+2" alt="Brand 2" class="brand-logo">
+                <img src="https://via.placeholder.com/150x60?text=Brand+3" alt="Brand 3" class="brand-logo">
+                <img src="https://via.placeholder.com/150x60?text=Brand+4" alt="Brand 4" class="brand-logo">
+                <img src="https://via.placeholder.com/150x60?text=Brand+5" alt="Brand 5" class="brand-logo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h3 class="section-heading">Get In Touch</h3>
+            <form id="contact-form" class="contact-form">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer-section">
+        <div class="back-to-top" id="backToTop" aria-label="Back to top">
+            <i class="fas fa-arrow-up"></i>
+        </div>
+        <div class="container">
+            <div class="footer-content">
+                <h3 class="footer-title">UI Portfolio</h3>
+                <div class="footer-contact">
+                    <div class="contact-item">+12 345 678 900</div>
+                    <div class="contact-item">info@example.com</div>
+                    <div class="contact-item">208 Avenue street, UK - 62617</div>
+                </div>
+                <div class="social-icons">
+                    <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                </div>
+                <div class="copyright">
+                    © 2025 UI Portfolio. All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress"></div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
