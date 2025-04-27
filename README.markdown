@@ -49,10 +49,7 @@ Wrote JavaScript for the dark mode toggle and search modal functionality.
 Ensured accessibility with ARIA labels and keyboard navigation.
 Structured the HTML for the portfolio and stats sections, integrating Bootstrap components.
 Tested responsiveness across multiple devices and browsers.
-## Dancun Odhiambo (odhiambodancun144@gmail.com):
 Implemented the contact form with client-side validation using JavaScript.
-Added smooth scrolling and active navigation link highlighting.
-Managed the assets folder, including placeholder images and CV integration.
 ## David Waihenya (davidwaihenya254@gmail.com):
 Styled the footer and brands sections, incorporating hover effects and animations.
 Wrote the initial draft of the README and documented setup instructions.
@@ -63,6 +60,8 @@ Optimized image assets for faster loading and offline compatibility.
 ## Rashid Kisitu (kisiturashid01@gmail.com):
 Managed the GitHub repository, including branch creation and pull request reviews.
 Finalized the README with team contributions and screenshots, ensuring clarity for submission.
+Added smooth scrolling and active navigation link highlighting.
+Managed the assets folder, including placeholder images and CV integration.
 
 ## Collaboration Process
 
