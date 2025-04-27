@@ -70,7 +70,7 @@ Managed the GitHub repository, including branch creation and pull request review
 Finalized the README with team contributions and screenshots, ensuring clarity for submission.
 
 ## Collaboration Process
-- **GitHub Workflow**: Used feature branches (`feature/hero-section`, `feature/dark-mode`) with pull requests for code reviews.
+
 - **Communication**: Daily stand-ups via Discord to assign tasks and resolve blockers.
 - **Version Control**: Clear commit messages (e.g., "Add contact form validation", "Fix responsive navbar").
 
