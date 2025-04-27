@@ -70,7 +70,7 @@ Finalized the README with team contributions and screenshots, ensuring clarity f
 - **Version Control**: Clear commit messages (e.g., "Add contact form validation", "Fix responsive navbar").
 
 ## Demo
-- **Live Demo**: [GitHub Pages Link](https://your-group.github.io/john-watson-portfolio/)
+- **Live Demo**: [netlify Link](https://john-watson.netlify.app/)
 - **Screenshots**:
   ![Home Section](screenshots/home.png)
   ![Portfolio Section](screenshots/portfolio.png)
@@ -88,9 +88,6 @@ Finalized the README with team contributions and screenshots, ensuring clarity f
    - Ensured cross-browser compatibility (Chrome, Firefox, Safari).
 4. **Documentation**: Wrote a detailed README to explain setup, contributions, and demo.
 
-## How to Submit
-- Submit the GitHub repo link via the Google Form provided on Monday.
-- Ensure all team members' names are listed in this README and the submission form.
 
 ## License
 © 2025 UI Portfolio. All Rights Reserved.
